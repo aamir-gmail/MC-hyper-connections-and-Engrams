@@ -61,3 +61,6 @@ We implemented a vectorised, GPU-friendly hashing mechanism that requires no ext
 # Multi-Head XOR Hashing
 mixed = current_grams * multipliers
 hashed = bitwise_xor(mixed) % prime_modulo
+
+### Deep seek was kind enough to release a sample implementation of the Engram paper please find their original implementation here.
+https://github.com/deepseek-ai/Engram
