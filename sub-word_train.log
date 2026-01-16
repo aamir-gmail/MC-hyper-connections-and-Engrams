@@ -1,0 +1,104 @@
+Initializing BPE Tokenizer (tiktoken: gpt2)...
+Vocab Size: 50257
+Encoding Data...
+Train Tokens: 17977352
+Initializing Engram-mHC Model (L=8, Streams=4, BF16)...
+Model Loaded! Setting WARMUP_STEPS = 0
+Starting BF16 Training...
+Step 0: Val Loss 4.5708 | LR: 3.00e-04
+Step 200: Val Loss 4.8105 | LR: 3.00e-04
+Step 400: Val Loss 4.7573 | LR: 3.00e-04
+Step 600: Val Loss 4.7164 | LR: 2.99e-04
+Step 800: Val Loss 4.6881 | LR: 2.99e-04
+Step 1000: Val Loss 4.7403 | LR: 2.98e-04
+Step 1200: Val Loss 4.7722 | LR: 2.97e-04
+Step 1400: Val Loss 4.7615 | LR: 2.96e-04
+Step 1600: Val Loss 4.7061 | LR: 2.95e-04
+Step 1800: Val Loss 4.8689 | LR: 2.93e-04
+Step 2000: Val Loss 4.7115 | LR: 2.92e-04
+Step 2200: Val Loss 4.7539 | LR: 2.90e-04
+Step 2400: Val Loss 4.7091 | LR: 2.88e-04
+Step 2600: Val Loss 4.7399 | LR: 2.86e-04
+Step 2800: Val Loss 4.8213 | LR: 2.84e-04
+Step 3000: Val Loss 4.7282 | LR: 2.82e-04
+Step 3200: Val Loss 4.7861 | LR: 2.79e-04
+Step 3400: Val Loss 4.7667 | LR: 2.77e-04
+Step 3600: Val Loss 4.7140 | LR: 2.74e-04
+Step 3800: Val Loss 4.7217 | LR: 2.71e-04
+Step 4000: Val Loss 4.7931 | LR: 2.68e-04
+Step 4200: Val Loss 4.6452 | LR: 2.65e-04
+Step 4400: Val Loss 4.7300 | LR: 2.62e-04
+Step 4600: Val Loss 4.7910 | LR: 2.59e-04
+Step 4800: Val Loss 4.7795 | LR: 2.55e-04
+Step 5000: Val Loss 4.6999 | LR: 2.52e-04
+Step 5200: Val Loss 4.6375 | LR: 2.48e-04
+Step 5400: Val Loss 4.6968 | LR: 2.44e-04
+Step 5600: Val Loss 4.6124 | LR: 2.40e-04
+Step 5800: Val Loss 4.6790 | LR: 2.37e-04
+Step 6000: Val Loss 4.7002 | LR: 2.32e-04
+Step 6200: Val Loss 4.7244 | LR: 2.28e-04
+Step 6400: Val Loss 4.7349 | LR: 2.24e-04
+Step 6600: Val Loss 4.6805 | LR: 2.20e-04
+Step 6800: Val Loss 4.5908 | LR: 2.16e-04
+Step 7000: Val Loss 4.6484 | LR: 2.11e-04
+Step 7200: Val Loss 4.7291 | LR: 2.07e-04
+Step 7400: Val Loss 4.6898 | LR: 2.02e-04
+Step 7600: Val Loss 4.5953 | LR: 1.98e-04
+Step 7800: Val Loss 4.6114 | LR: 1.93e-04
+Step 8000: Val Loss 4.7165 | LR: 1.88e-04
+Step 8200: Val Loss 4.6658 | LR: 1.84e-04
+Step 8400: Val Loss 4.6470 | LR: 1.79e-04
+Step 8600: Val Loss 4.6483 | LR: 1.74e-04
+Step 8800: Val Loss 4.6637 | LR: 1.70e-04
+Step 9000: Val Loss 4.7000 | LR: 1.65e-04
+Step 9200: Val Loss 4.6243 | LR: 1.60e-04
+Step 9400: Val Loss 4.6848 | LR: 1.56e-04
+Step 9600: Val Loss 4.6749 | LR: 1.51e-04
+Step 9800: Val Loss 4.6242 | LR: 1.46e-04
+Step 10000: Val Loss 4.5918 | LR: 1.42e-04
+Step 10200: Val Loss 4.5228 | LR: 1.37e-04
+Step 10400: Val Loss 4.6232 | LR: 1.32e-04
+Step 10600: Val Loss 4.5327 | LR: 1.28e-04
+Step 10800: Val Loss 4.5402 | LR: 1.23e-04
+Step 11000: Val Loss 4.6654 | LR: 1.19e-04
+Step 11200: Val Loss 4.5628 | LR: 1.14e-04
+Step 11400: Val Loss 4.5053 | LR: 1.10e-04
+Step 11600: Val Loss 4.5770 | LR: 1.06e-04
+Step 11800: Val Loss 4.5175 | LR: 1.02e-04
+Step 12000: Val Loss 4.5320 | LR: 9.75e-05
+Step 12200: Val Loss 4.6144 | LR: 9.35e-05
+Step 12400: Val Loss 4.5701 | LR: 8.95e-05
+Step 12600: Val Loss 4.5884 | LR: 8.56e-05
+Step 12800: Val Loss 4.5718 | LR: 8.19e-05
+Step 13000: Val Loss 4.6623 | LR: 7.82e-05
+Step 13200: Val Loss 4.7020 | LR: 7.47e-05
+Step 13400: Val Loss 4.5123 | LR: 7.12e-05
+Step 13600: Val Loss 4.5805 | LR: 6.79e-05
+Step 13800: Val Loss 4.5751 | LR: 6.47e-05
+Step 14000: Val Loss 4.5587 | LR: 6.16e-05
+Step 14200: Val Loss 4.6612 | LR: 5.86e-05
+Step 14400: Val Loss 4.6087 | LR: 5.58e-05
+Step 14600: Val Loss 4.5721 | LR: 5.31e-05
+Step 14800: Val Loss 4.5148 | LR: 5.05e-05
+Step 15000: Val Loss 4.6127 | LR: 4.81e-05
+Step 15200: Val Loss 4.5488 | LR: 4.58e-05
+Step 15400: Val Loss 4.6485 | LR: 4.37e-05
+Step 15600: Val Loss 4.6250 | LR: 4.17e-05
+Step 15800: Val Loss 4.6147 | LR: 3.98e-05
+Step 16000: Val Loss 4.4775 | LR: 3.81e-05
+Step 16200: Val Loss 4.5456 | LR: 3.66e-05
+Step 16400: Val Loss 4.6193 | LR: 3.52e-05
+Step 16600: Val Loss 4.4374 | LR: 3.40e-05
+Step 16800: Val Loss 4.5486 | LR: 3.30e-05
+Step 17000: Val Loss 4.6249 | LR: 3.21e-05
+Step 17200: Val Loss 4.5709 | LR: 3.13e-05
+Step 17400: Val Loss 4.5651 | LR: 3.07e-05
+Step 17600: Val Loss 4.4818 | LR: 3.03e-05
+Step 17800: Val Loss 4.5121 | LR: 3.01e-05
+
+--- Generating Text ---
+! union typically certifies as if the exact source is identified he has nothing to do with he needs on his fourth appeal appears as mr reception of the morality of gentleman who reduces his immoral muscle and asthma starts what happens when he doesn t involve his uncle and jeffrey dahmer is pictured sitting on play with a sixth chain which is asking mr perfectly elimination that particular sentence upon a hearing not establishing coercion typically occurs for scapegoat if a violence is atrocities punishable by a broken narrow penalty weak religious uprising and or noise the normal weakness of tributes is by these injures are necessary to assault very strong opponents can be trained to minimize the breach of an opponents stumbling on the most substantive fear of offending social revelatory behaviour called second hurdle the question is a man already reporting more than one witness one s return the potentially repeated subversive within a sympathetic position can serve implicitly to a person often in an attempt to outlaw an ultra wiki for example if a person implies someone s pleasure you died even if no reason has ever been captain nader still airs on a different starting event knowledgeable conspiracies such as taking at least repeatedly and largely ceremonial is not chaotic most buildings are necessary since often a thing has a lot of troubles on radically different avenues or once both love and love and love do so have invariably come to happen and love outside of your own time it is worth noting that everything is unlike speaking herself is constantly combined until the first of the three things could come cry so like this to illustrate how it is using something is
+Visualizing Gates...
+Model saved.
+
+Process finished with exit code 0
